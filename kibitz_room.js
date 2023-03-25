@@ -1,7 +1,7 @@
 var firebaseConfig = {
   apiKey: "AIzaSyAZnfHpuNB95zSMpRF8HSKec0d5JJNzzN0",
   authDomain: "kibitz-660d0.firebaseapp.com",
-  databaseURL: "https://kibitz-660d0-default-rtdb.firebaseio.com",
+  databaseURL: "https://kibitz-660d0-default-rtdb.firebaseio.com/",
   projectId: "kibitz-660d0",
   storageBucket: "kibitz-660d0.appspot.com",
   messagingSenderId: "974241347555",
@@ -51,6 +51,6 @@ firebase.initializeApp(firebaseConfig);
     function logout() {
     localStorage.removeItem("user_name");
     localStorage.removeItem("room_name");
-        window.location = "index.html";
+        window.location = "kibitz.html";
     }
     
